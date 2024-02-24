@@ -1,0 +1,100 @@
+/*CSS*/
+
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('E:\gutermensch\G-terMenschWeb\SanFranciscoDisplay-Black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 8px;
+    font-family: 'SF Pro Display', sans-serif;
+}
+/*  this makes the font size of the page sans-serif     */
+
+
+a{
+    display: block;
+    text-decoration: none;
+}
+/*  defines anchor element to be block which makes text fill up their given width
+    text-decoration makes it so that links don't have an ugly underline     */
+
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+/* centers webpage and creates margins */
+
+
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    width: 100%;
+    height: 4.4rem;
+    background-color: rgba(0,0,0,.8);
+    backdrop-filter: blur(10%rem);
+}
+/* creates toolbar box */
+
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+/* style to make a list print horizontally instead of vertically */
+
+.nav-list-mobile{
+    display: none;
+}
+/* hides any element with this style idk how to test
+ on mobile but we have something here for future editting */
+
+
+.nav-link{
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 0 1rem;
+    transition: opacity .5s;    
+}
+/* styles the words on the toolbar to be more readable */
+
+
+.nav-link:hover{
+    opacity:.7;
+}
+/* gives us the hover effect */
+
+.nav-link-lifewell{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("apple_logo.svg") center no-repeat;
+}
+/* logo in taskbar, is there but doesn't show picture */
+
+.nav-link-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("search.svg") center no-repeat;
+}
+/* iamge for search bar, doesn't show but is present */
+
+.iphone-11-pro{
+    height: 69.2rem;
+    background: url();
+    margin-top: 4.4rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+}
