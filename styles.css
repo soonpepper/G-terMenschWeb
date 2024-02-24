@@ -80,21 +80,31 @@ header{
 .nav-link-lifewell{
     width: 1.6rem;
     height: 4.4rem;
-    background: url("apple_logo.svg") center no-repeat;
+    background: url("Apple_logo_grey.svg") center no-repeat;
 }
 /* logo in taskbar, is there but doesn't show picture */
 
 .nav-link-search{
     width: 1.6rem;
     height: 4.4rem;
-    background: url("search.svg") center no-repeat;
+    background-image: url("Apple_logo_grey.svg") center no-repeat;
 }
 /* iamge for search bar, doesn't show but is present */
 
 .iphone-11-pro{
-    height: 69.2rem;
-    background: url();
+    background: url("iPhone-15-Pro-Review-Featured-Gear.webp");
     margin-top: 4.4rem;
+}
+
+.hero{
+    height: 69.2rem;
     background-size: auto 73.6rem;
     background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}
+
+.iphone-11-pro{
+    border-top: none;
 }
